@@ -1,5 +1,10 @@
 {
   "devDependencies": {
     "@types/node": "^24.2.1"
+  },
+  "dependencies": {
+    "@types/react": "^19.1.10",
+    "next": "^15.4.6",
+    "react": "^19.1.1"
   }
 }
