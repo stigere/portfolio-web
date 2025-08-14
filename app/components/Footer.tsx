@@ -50,7 +50,7 @@ export default function Footer() {
                 </p>
                 <Link
                   href="/contact"
-                  className="inline-flex items-center rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 transition-colors"
+                  className="inline-flex items-center rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-amber-600 transition-colors"
                 >
                   Book Consultation
                 </Link>
@@ -62,7 +62,7 @@ export default function Footer() {
           <div className="mt-8 pt-8 border-t border-gray-200">
             <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
               <p className="text-sm text-gray-600">
-                © 2024 Spencer Tigere. All rights reserved.
+                © 2025 Spencer Tigere. All rights reserved.
               </p>
               <div className="flex items-center space-x-6">
                 <a

@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function CTA() {
   return (
-    <div className="bg-blue-600">
+    <div className="bg-blue-500">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between py-3">
           <div className="flex items-center space-x-3">

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: 'Spencer Tigere',
     images: [
       {
-        url: '/og-image.svg',
+        url: '/op-image.jpeg',
         width: 1200,
         height: 630,
         alt: 'Spencer Tigere - Business Operations & Booking Systems',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Spencer Tigere - Business Operations & Booking Systems',
     description: 'Building intelligent business operations and booking systems that scale.',
-    images: ['/og-image.svg'],
+    images: ['/op-image.jpeg'],
   },
   robots: {
     index: true,

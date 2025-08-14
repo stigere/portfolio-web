@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Page() {
   return (
     <div className="space-y-16">
-      {/* Hero Section */}
+            {/* Hero Section */}
       <section className="mx-auto max-w-4xl px-6 py-16 text-center">
         <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl lg:text-6xl">
           Intelligent Business Operations
@@ -14,7 +14,7 @@ export default function Page() {
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href="/demos"
-            className="inline-flex items-center rounded-md bg-blue-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-blue-500 transition-colors"
+            className="inline-flex items-center rounded-md bg-blue-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-amber-600 transition-colors"
           >
             View Demos
           </Link>
@@ -100,21 +100,31 @@ export default function Page() {
       </section>
 
       {/* About Section */}
-      <section className="mx-auto max-w-4xl px-6 py-16">
-        <div className="text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">About Spencer Tigere</h2>
-          <p className="text-lg text-gray-600 leading-relaxed">
-            I specialize in building intelligent business operations and booking systems that scale. 
-            With expertise in modern web technologies and a focus on user experience, I help businesses 
-            optimize their workflows and improve customer interactions through thoughtful software solutions.
-          </p>
-          <div className="mt-8">
-            <Link
+      <section className="mx-auto max-w-6xl px-6 py-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="text-center lg:text-left">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">About Spencer Tigere</h2>
+            <p className="text-lg text-gray-600 leading-relaxed">
+              I specialize in building intelligent business operations and booking systems that scale. 
+              With expertise in modern web technologies and a focus on user experience, I help businesses 
+              optimize their workflows and improve customer interactions through thoughtful software solutions.
+            </p>
+            <div className="mt-8">
+                          <Link
               href="/contact"
-              className="inline-flex items-center rounded-md bg-blue-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-blue-500 transition-colors"
+              className="inline-flex items-center rounded-md bg-blue-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-amber-600 transition-colors"
             >
               Let's Work Together
             </Link>
+            </div>
+          </div>
+          <div className="flex justify-center lg:justify-start">
+            <img 
+              src="/op-image.jpeg" 
+              alt="Spencer Tigere" 
+              className="rounded-lg shadow-lg max-w-full h-auto"
+              style={{ maxHeight: '300px' }}
+            />
           </div>
         </div>
       </section>

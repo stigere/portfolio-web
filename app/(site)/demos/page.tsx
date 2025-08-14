@@ -95,7 +95,7 @@ export default function Page() {
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
                 href={demo.href}
-                className="inline-flex items-center justify-center rounded-md bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 transition-colors"
+                className="inline-flex items-center justify-center rounded-md bg-blue-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-amber-600 transition-colors"
               >
                 View Demo
               </Link>
@@ -118,7 +118,7 @@ export default function Page() {
         </p>
         <Link
           href="/contact"
-          className="inline-flex items-center rounded-md bg-blue-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-blue-500 transition-colors"
+          className="inline-flex items-center rounded-md bg-blue-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-amber-600 transition-colors"
         >
           Schedule a Consultation
         </Link>
