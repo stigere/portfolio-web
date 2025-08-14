@@ -1,6 +1,6 @@
-// app/api/booking/[...path]/route.ts
+// app/api/revenue/[...path]/route.ts
 export const runtime = 'edge'; // optional
-const BASE = process.env.REVENUE_API_BASE!; // e.g. https://booking-service.up.railway.app
+const BASE = process.env.REVENUE_API_BASE!; // e.g. https://revenue-service.up.railway.app
 
 async function handler(req: Request, ctx: { params: { path?: string[] } }) {
   const path = (ctx.params.path ?? []).join('/');
@@ -20,4 +20,4 @@ async function handler(req: Request, ctx: { params: { path?: string[] } }) {
   return new Response(res.body, { status: res.status, headers: res.headers });
 }
 
-export { handler as GET, handler as POST, handler as PUT, handler as PATCH, handler as DELETE, handler as OPTIONS, handler as HEAD };
+export { handler as GET, handler as POST, handler as PUT, handler as PATCH, handler as DELETE };
