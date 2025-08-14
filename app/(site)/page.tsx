@@ -105,9 +105,7 @@ export default function Page() {
           <div className="text-center lg:text-left">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">About Spencer Tigere</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              I specialize in building intelligent business operations and booking systems that scale. 
-              With expertise in modern web technologies and a focus on user experience, I help businesses 
-              optimize their workflows and improve customer interactions through thoughtful software solutions.
+             I’m a dynamic software developer who builds simple, reliable systems that streamline bookings and day-to-day operations—so you save time, serve customers better, and increase revenue.
             </p>
             <div className="mt-8">
                           <Link
