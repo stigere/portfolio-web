@@ -64,7 +64,7 @@ export default function RootLayout({
         <script defer data-domain="spencertigere.com" src="https://plausible.io/js/script.js"></script>
       </head>
       <body>
-        <div className="min-h-screen bg-white flex flex-col">
+        <div className="min-h-screen bg-gray-100 flex flex-col">
           <Navigation />
           <CTA />
           <main className="flex-1">
