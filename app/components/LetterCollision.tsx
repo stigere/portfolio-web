@@ -43,7 +43,6 @@ export function LetterCollision() {
   useEffect(() => {
     if (!ref.current) return;
     animateLettersOnScroll(ref);
-    ScrollTrigger.addEventListener('refreshInit', () => ScrollTrigger.refresh());
   }, []);
   return (
     <div ref={ref} className="ml-8 scroll-smooth">
