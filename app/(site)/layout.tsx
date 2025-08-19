@@ -2,6 +2,7 @@ import '../globals.css';
 import Navigation from '../components/Navigation';
 import CTA from '../components/CTA';
 import Footer from '../components/Footer';
+import CustomCursor from '../components/CustomCursor';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -64,6 +65,7 @@ export default function RootLayout({
         <script defer data-domain="spencertigere.com" src="https://plausible.io/js/script.js"></script>
       </head>
       <body>
+        <CustomCursor />
         <div className="min-h-screen bg-gray-100 flex flex-col">
           <Navigation />
           <CTA />
