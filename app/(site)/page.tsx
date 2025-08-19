@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { LetterCollision } from '../components/LetterCollision';
 import ScrollIndicator from '../components/ScrollIndicator';
+import BalloonDemos from '../components/BalloonDemos';
 
 export default function Page() {
     return (
@@ -49,64 +50,17 @@ export default function Page() {
       {/* Featured Demos */}
       <section className="mx-auto max-w-7xl px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900">Featured Solutions</h2>
+          <h2 className="text-3xl font-bold text-gray-900">Featured Projects</h2>
           <p className="mt-4 text-lg text-gray-600">
-            Explore the tools and systems I've built to solve real business challenges
+            Explore the tools I've built to solve real business challenges.
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Setmore++ */}
-          <div className="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg transition-shadow">
-            <div className="h-8 w-8 rounded-lg bg-blue-200 flex items-center justify-center mb-4">
-            </div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">Setmore++</h3>
-            <p className="text-gray-600 mb-4">
-              Smart availability, deposits, reminders, and admin flags for booking systems.
-            </p>
-            <Link
-              href="/demos/setmore-plus"
-              className="text-blue-600 hover:text-blue-500 font-medium text-sm"
-            >
-              View Demo →
-            </Link>
-          </div>
-
-          {/* Ops Autopilot */}
-          <div className="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg transition-shadow">
-            <div className="h-8 w-8 rounded-lg bg-blue-200 flex items-center justify-center mb-4">
-            </div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">Ops Autopilot</h3>
-            <p className="text-gray-600 mb-4">
-              Automated operational workflows that reduce manual tasks and improve efficiency.
-            </p>
-            <Link
-              href="/demos/ops-autopilot"
-              className="text-blue-600 hover:text-blue-500 font-medium text-sm"
-            >
-              View Demo →
-            </Link>
-          </div>
-
-          {/* Data Reliability */}
-          <div className="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg transition-shadow">
-            <div className="h-8 w-8 rounded-lg bg-blue-200 flex items-center justify-center mb-4">
-              
-            </div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">Data Reliability</h3>
-            <p className="text-gray-600 mb-4">
-              Tools to ensure data quality, validation, and consistency across systems.
-            </p>
-            <Link
-              href="/demos/data-reliability"
-              className="text-blue-600 hover:text-blue-500 font-medium text-sm"
-            >
-              View Demo →
-            </Link>
-          </div>
+        <div className="mb-12">
+          <BalloonDemos />
         </div>
 
-        <div className="text-center mt-12">
+        <div className="text-center">
           <Link
             href="/demos"
             className="inline-flex items-center rounded-md bg-gray-900 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-gray-800 transition-colors"
@@ -120,7 +74,7 @@ export default function Page() {
       <section className="mx-auto max-w-6xl px-6 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">About Spencer Tigere</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">About</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
              I’m a dynamic software developer who builds simple, reliable systems that streamline bookings and day-to-day operations—so you save time, serve customers better, and increase revenue.
             </p>
@@ -135,10 +89,10 @@ export default function Page() {
           </div>
           <div className="flex justify-center lg:justify-start">
             <img 
-              src="/op-image.jpeg" 
+              src="/IMG_5920.jpg" 
               alt="Spencer Tigere" 
-              className="rounded-lg shadow-lg max-w-full h-auto"
-              style={{ maxHeight: '300px' }}
+              className="rounded-full shadow-lg max-w-full h-auto object-cover"
+              style={{ maxHeight: '400px', width: '400px', height: '400px' }}
             />
           </div>
         </div>
