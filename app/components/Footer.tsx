@@ -7,17 +7,6 @@ export default function Footer() {
         <div className="py-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Brand */}
-            <div className="space-y-4">
-              <div className="flex items-center space-x-2">
-                <div className="h-8 w-8 rounded-lg bg-blue-600 flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">ST</span>
-                </div>
-                <span className="font-semibold text-gray-900">Spencer Tigere</span>
-              </div>
-              <p className="text-sm text-gray-600 max-w-xs">
-                Building intelligent business operations and booking systems that scale.
-              </p>
-            </div>
 
             {/* Quick Links */}
             <div className="space-y-4">
@@ -41,21 +30,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Contact */}
-            <div className="space-y-4">
-              <h3 className="text-sm font-semibold text-gray-900">Get in Touch</h3>
-              <div className="space-y-2">
-                <p className="text-sm text-gray-600">
-                  Ready to optimize your operations?
-                </p>
-                <Link
-                  href="/contact"
-                  className="inline-flex items-center rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-amber-600 transition-colors"
-                >
-                  Book Consultation
-                </Link>
-              </div>
-            </div>
+          
           </div>
 
           {/* Bottom Bar */}
