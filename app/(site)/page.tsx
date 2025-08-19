@@ -1,8 +1,20 @@
+'use client';
+
 import Link from 'next/link';
+import { LetterCollision } from '../components/LetterCollision';
 
 export default function Page() {
-  return (
-    <div className="space-y-16">
+    return (
+    <div>
+      {/* Animated Text Section */}
+      <section className="h-screen bg-gray-100 flex items-center justify-center">
+        <div className="text-gray-900">
+          <LetterCollision />
+        </div>
+      </section>
+
+      {/* Main Content */}
+      <div className="space-y-16">
             {/* Hero Section */}
       <section className="mx-auto max-w-4xl px-6 py-16 text-center">
         <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl lg:text-6xl">
@@ -126,6 +138,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-    </div>
-  );
+        </div>
+      </div>
+    );
 }
