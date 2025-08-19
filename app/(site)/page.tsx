@@ -13,6 +13,9 @@ export default function Page() {
         </div>
       </section>
 
+      {/* Spacing */}
+      <div className="h-screen"></div>
+
       {/* Main Content */}
       <div className="space-y-16">
             {/* Hero Section */}

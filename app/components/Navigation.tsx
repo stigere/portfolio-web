@@ -18,8 +18,11 @@ export default function Navigation() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="h-8 w-8 rounded-lg bg-blue-600 flex items-center justify-center">
-              <span className="text-white font-bold text-sm">ST</span>
+            <div className="h-10 w-12 rounded-full bg-blue-200 flex items-center justify-center relative">
+              <div className="absolute inset-0 bg-blue-200 rounded-full"></div>
+              <div className="absolute -top-1 left-1 w-3 h-3 bg-blue-200 rounded-full"></div>
+              <div className="absolute -top-1 right-1 w-3 h-3 bg-blue-200 rounded-full"></div>
+              <span className="text-blue-800 font-bold text-base relative z-10">ST</span>
             </div>
             <span className="font-semibold text-gray-900">Spencer Tigere</span>
           </Link>
