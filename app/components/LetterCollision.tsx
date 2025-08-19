@@ -9,14 +9,14 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 const lines = [
-  'Passion ',
+  'passion ',
   'for ',
   'creating ',
   'systems ',
   'that ',
   'enable ',
   'business ',
-  'growth '
+  'growth. '
 ];
 function getRandomRotation() {
     return Math.random() * 60 - 30;

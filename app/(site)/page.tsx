@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { LetterCollision } from '../components/LetterCollision';
+import ScrollIndicator from '../components/ScrollIndicator';
 
 export default function Page() {
     return (
@@ -12,6 +13,9 @@ export default function Page() {
           <LetterCollision />
         </div>
       </section>
+
+      {/* Scroll Indicator */}
+      <ScrollIndicator />
 
       {/* Spacing */}
       <div className="h-screen"></div>
@@ -37,7 +41,7 @@ export default function Page() {
             href="/contact"
             className="inline-flex items-center rounded-md bg-white px-6 py-3 text-base font-semibold text-blue-600 shadow-sm ring-1 ring-inset ring-blue-600 hover:bg-blue-50 transition-colors"
           >
-            Book Consultation
+            Contact Me
           </Link>
         </div>
       </section>
@@ -54,8 +58,7 @@ export default function Page() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Setmore++ */}
           <div className="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg transition-shadow">
-            <div className="h-8 w-8 rounded-lg bg-blue-600 flex items-center justify-center mb-4">
-              <span className="text-white font-bold text-sm">S</span>
+            <div className="h-8 w-8 rounded-lg bg-blue-200 flex items-center justify-center mb-4">
             </div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">Setmore++</h3>
             <p className="text-gray-600 mb-4">
@@ -71,8 +74,7 @@ export default function Page() {
 
           {/* Ops Autopilot */}
           <div className="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg transition-shadow">
-            <div className="h-8 w-8 rounded-lg bg-green-600 flex items-center justify-center mb-4">
-              <span className="text-white font-bold text-sm">A</span>
+            <div className="h-8 w-8 rounded-lg bg-blue-200 flex items-center justify-center mb-4">
             </div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">Ops Autopilot</h3>
             <p className="text-gray-600 mb-4">
@@ -88,8 +90,8 @@ export default function Page() {
 
           {/* Data Reliability */}
           <div className="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg transition-shadow">
-            <div className="h-8 w-8 rounded-lg bg-purple-600 flex items-center justify-center mb-4">
-              <span className="text-white font-bold text-sm">D</span>
+            <div className="h-8 w-8 rounded-lg bg-blue-200 flex items-center justify-center mb-4">
+              
             </div>
             <h3 className="text-lg font-semibold text-gray-900 mb-2">Data Reliability</h3>
             <p className="text-gray-600 mb-4">
@@ -127,7 +129,7 @@ export default function Page() {
               href="/contact"
               className="inline-flex items-center rounded-md bg-blue-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-amber-600 transition-colors"
             >
-              Let's Work Together
+              Contact Me
             </Link>
             </div>
           </div>
