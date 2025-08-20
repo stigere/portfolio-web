@@ -29,13 +29,13 @@ export default function Page() {
           <div className="text-center lg:text-left">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">About</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              As a dynamic software developer, I create websites and systems that showcase your brand and improve how your business operates.
+              As a software developer, I create websites and systems that showcase your brand and improve how your business operates.
               By understanding your processes first, I design solutions that save time, strengthen customer engagement, and streamline day-to-day work.
             </p>
             <div className="mt-8">
                           <Link
               href="/contact"
-              className="inline-flex items-center rounded-md bg-blue-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-orange-600 transition-colors"
+              className="inline-flex items-center rounded-md bg-gray-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-orange-600 transition-colors"
             >
               Contact Me
             </Link>
@@ -62,7 +62,7 @@ export default function Page() {
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
           <Link
             href="/demos"
-            className="inline-flex items-center rounded-md bg-blue-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-orange-600 transition-colors"
+            className="inline-flex items-center rounded-md bg-gray-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-orange-600 transition-colors"
           >
             View Demos
           </Link>
