@@ -72,10 +72,6 @@ export default function Page() {
       {/* Header */}
       <div className="text-center mb-16">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">Demo Hub</h1>
-        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Explore interactive demonstrations of business operations and booking systems I've built. 
-          Each demo showcases real-world solutions to common business challenges.
-        </p>
       </div>
 
       {/* Demo Grid */}

@@ -59,7 +59,7 @@ export default function CustomCursor() {
         transform: `translate3d(${cursorPosition.x}px, ${cursorPosition.y}px, 0)`,
       }}
     >
-      <div className="w-6 h-6 bg-blue-500 rounded-full opacity-100 shadow-lg"></div>
+      <div className="w-6 h-6 bg-orange-500 rounded-full opacity-100 shadow-lg"></div>
     </div>
   );
 }
