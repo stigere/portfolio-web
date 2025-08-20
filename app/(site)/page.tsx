@@ -43,7 +43,7 @@ export default function Page() {
           </div>
             <div className="flex justify-center lg:justify-end">
             <img 
-              src="/IMG_5920.jpg" 
+              src="/IMG_5920.JPG" 
               alt="Spencer Tigere" 
               className="rounded-full shadow-lg max-w-full h-auto object-cover"
               style={{ maxHeight: '400px', width: '400px', height: '400px' }}
