@@ -19,7 +19,7 @@ export function LetterDisplay({ word }: { word: string }) {
       {word.split('').map((char, i) => (
         <div
           key={i}
-          className="letter text-6xl font-semibold xs:text-[90px] md:text-[120px]"
+          className="letter text-6xl font-semibold xs:text-[90px] md:text-[120px] text-gray-900 hover:text-orange-500 transition-colors duration-300 cursor-pointer"
           data-speed={getRandomSpeed(i)}
         >
           {char}
